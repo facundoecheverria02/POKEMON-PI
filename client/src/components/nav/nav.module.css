@@ -1,0 +1,50 @@
+.contenedor{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: black 0px solid;
+    position: relative;
+    padding-top: 10px;
+}
+.zonaFiltros{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("../../img/fondo-opacidad.png");
+    width: 30%;
+    padding: 10px;
+    margin-left: 20px;
+    position: absolute;
+    right: 20px;
+    top: 55px;  
+    z-index: 2;
+    
+}
+
+.logo{
+    width: 40%;
+
+}
+
+.boton{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color:  rgb(130, 193, 212);
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    right: 1%;
+    top: 6%;
+}
+
+.contenedorZonaFiltros{
+    display: flex;
+    flex-direction: column;
+    
+
+}

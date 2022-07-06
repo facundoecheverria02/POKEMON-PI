@@ -1,0 +1,49 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.formulario{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-top: 0px;
+    background-image: url("../../img/fondo-opacidad.png");
+    box-shadow:  rgb(46, 46, 46) 5px 4px 7px 1px;
+    
+}
+
+input{
+    margin: 10px;
+    width: 50%;
+    border-radius: 7px;
+}
+
+select{
+    width: 50%;
+    border-radius: 7px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+}
+
+.link{
+    border: 0px solid black;
+    width: 10%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.flechaImg{
+    width: 100%;
+}
